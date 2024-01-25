@@ -244,7 +244,7 @@ Build Tools
 
 Vite (for fast frontend development)
 
-Project Structure
+Project Structure Overview
 
 Frontend Structure
 
@@ -256,10 +256,47 @@ Frontend Structure
 |-- index.jsx
 |-- ...
 
+components: This directory contains React components used in the project. The main application component, App.jsx, is located here.
+
+styles: The styles directory holds global styles for the project. index.css likely includes styling rules that are applied across various components.
+
+index.jsx: This is the entry point for the React application, where the main React component is rendered.
+
+Configuration Files
+.babelrc (if applicable): Configuration file for Babel, a JavaScript compiler. It may contain settings for transpiling JavaScript code.
+
+vite.config.js: Configuration file for Vite, the build tool used for fast frontend development. It may include settings for bundling, plugins, and other build-related configurations.
+
 Configuration Files
 
 .babelrc (if applicable)
 vite.config.js (for Vite configuration)
+
+Backend Structure
+
+/backend
+|-- app.py
+|-- env
+|   |-- ...
+|-- migrations
+|   |-- ...
+|-- models
+|   |-- ...
+|-- ...
+
+app.py: This is the main entry point for the Flask application. 
+It contains the application configuration, route definitions, and possibly other setup.
+
+env: The env directory is commonly used for virtual environment files. 
+It might contain the virtual environment setup for the Flask application.
+
+migrations: If the project uses Flask-Migrate for database migrations, 
+this directory could store migration scripts.
+
+models: This directory may contain Python files defining database models using Flask-SQLAlchemy.
+
+Database: The database file, bank.db, is stored in the root directory. 
+It's an SQLite database used by the Flask application.
 
 Styling
 
