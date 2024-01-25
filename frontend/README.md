@@ -90,47 +90,28 @@ Modern web development by building a responsive React JS application consisting 
 
 ## Features
 
-Flask application for managing customers, accounts, and transactions with a SQLite database. This is a good start, but there are a few things you might want to consider or improve:
-
-Error Handling: The error handling in your routes is decent, but you might want to return more specific HTTP status codes. For example, in the create_customer, create_account, and create_transaction routes, you return a 400 status code for all exceptions. You might want to differentiate between 400 Bad Request and other server errors.
-
-Validation: It's important to validate the input data. For example, in the create_account route, you assume that the request data contains 'customer_id' and 'balance'. You should check if these fields exist and if they have the correct types before attempting to create an account.
-
-Transaction Rollback: When an exception occurs during a database operation, it's a good practice to roll back the transaction to maintain data integrity. You can use db.session.rollback() in your except blocks.
-
-Security: Be cautious about potential security vulnerabilities. For instance, your application might benefit from input validation, especially when handling user inputs such as JSON data.
-
-Separation of Concerns: As your application grows, you might want to consider organizing your code into separate files or modules for better maintainability. You could use the Flask application factory pattern to create the app in one file and define routes in another.
-
-Documentation: Consider adding documentation, especially if this application is intended to be used by others. You can use docstrings in your functions or a tool like Swagger for API documentation.
-
-Testing: Implement unit tests and integration tests to ensure the correctness of your application, especially as it evolves.
-
-Logging: Implement proper logging to help you debug issues in the future.
-
 # Bank Management System
 
 A Flask application for managing customers, accounts, and transactions in a bank.
 
-## Features
+Customer Management:
 
-- **Customer Management:**
-  - Get the list of customers
-  - Create a new customer
-  - Update customer details
-  - Delete a customer
+   Get the list of customers
+   Create a new customer
+   Update customer details
+   Delete a customer
+   Account Management:
 
-- **Account Management:**
-  - Get the list of accounts
-  - Create a new account
-  - Update account details
-  - Delete an account
+   Get the list of accounts
+   Create a new account
+   Update account details
+   Delete an account
+   Transaction Management:
 
-- **Transaction Management:**
-  - Get the list of transactions
-  - Create a new transaction
-  - Update transaction details
-  - Delete a transaction
+   Get the list of transactions
+   Create a new transaction
+   Update transaction details
+   Delete a transaction
 
 ## Technologies Used
 
@@ -188,27 +169,6 @@ A Flask application for managing customers, accounts, and transactions in a bank
 
    flask db upgrade
    
-## Features
-
-   Customer Management:
-
-   Get the list of customers
-   Create a new customer
-   Update customer details
-   Delete a customer
-   Account Management:
-
-   Get the list of accounts
-   Create a new account
-   Update account details
-   Delete an account
-   Transaction Management:
-
-   Get the list of transactions
-   Create a new transaction
-   Update transaction details
-   Delete a transaction
-
 ## Technologies Used
 
 Frontend Technologies
