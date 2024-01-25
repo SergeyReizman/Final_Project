@@ -82,21 +82,7 @@ npm install axios
 npm i axios
 
 
-# Your Project Name
-
 Bank Management
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements]
 
 ## Introduction
 
@@ -152,17 +138,41 @@ A Flask application for managing customers, accounts, and transactions in a bank
 - Flask-SQLAlchemy: Flask extension for SQLAlchemy, a SQL toolkit for Python
 - Flask-CORS: Flask extension for handling Cross-Origin Resource Sharing (CORS)
 
-## Setup
+## Project Setup
 
-1. Clone the repository:
+   Development Environment
+   
+   1. Clone the repository:
 
    ```bash
    git clone https://github.com/SergeyReizman/Final_Project.git
+
+   2. Frontend Setup
+
+   Install dependencies:
+
+   cd frontend
+   npm install
+
+   Run the development server:
    
+   npm run dev
 
-## Getting Started
+   Build for Production:
 
-Provide instructions on how to set up the project on a local machine.
+   npm run build
+
+   3. Backend Setup
+
+   Install Python dependencies:
+
+   cd backend
+
+   python -m venv env
+   .\env\Scripts\activate
+   pip install -r requirements.txt
+
+   
 
 ### Prerequisites
 
