@@ -92,7 +92,10 @@ Modern web development by building a responsive React JS application consisting 
 
 # Bank Management System
 
-A Flask application for managing customers, accounts, and transactions in a bank.
+A Flask application for managing customers, accounts, and transactions in a bank using 
+Flask for building the web application, 
+Flask-CORS for handling Cross-Origin Resource Sharing, and 
+Flask-SQLAlchemy for interacting with a SQLite database.
 
 Customer Management:
 
