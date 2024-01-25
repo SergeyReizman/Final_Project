@@ -198,6 +198,9 @@ Backend Technologies
 - Flask: A micro web framework for Python
 - Flask-SQLAlchemy: Flask extension for SQLAlchemy, a SQL toolkit for Python
 - Flask-CORS: Flask extension for handling Cross-Origin Resource Sharing (CORS)
+
+
+
 Build Tools
 Vite (for fast frontend development)
 Project Structure
