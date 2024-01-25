@@ -198,6 +198,9 @@ The database schema includes tables for Customers, Accounts, and Transactions.
 
    3. Backend Setup
 
+   https://github.com/SergeyReizman/Final_Project/assets/140590660/39d8d80e-15d3-4011-b373-ad7c89da822d
+
+
    Install Python dependencies:
 
    cd backend
