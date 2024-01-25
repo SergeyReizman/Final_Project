@@ -164,12 +164,22 @@ Description: Remove a transaction record from the system.
 
 ## Project Setup
 
+## Getting Started
+
+1. Clone this repository.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the application: `python app.py`
+
+## Database
+
+The application uses SQLite as the database, and the database file is named `bank.db`. 
+The database schema includes tables for Customers, Accounts, and Transactions.
+
    Development Environment
    
    1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/SergeyReizman/Final_Project.git
+      git clone https://github.com/SergeyReizman/Final_Project.git
 
    2. Frontend Setup
 
@@ -195,8 +205,10 @@ Description: Remove a transaction record from the system.
    python -m venv env
 
    .\env\Scripts\activate
-
-   pip install -r requirements.txt
+   
+   Install dependencies: `pip install -r requirements.txt`
+   
+   Run the application: `python app.py`
 
    Run Flask Shell:
 
