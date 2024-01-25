@@ -288,19 +288,26 @@ Backend Structure
 |   |-- ...
 |-- ...
 
-app.py: This is the main entry point for the Flask application. 
-It contains the application configuration, route definitions, and possibly other setup.
+- **app.py:** Main entry point for the Flask application, containing application configuration, route definitions, and setup.
+  It contains the application configuration, route definitions, and possibly other setup.
 
-env: The env directory is commonly used for virtual environment files. 
-It might contain the virtual environment setup for the Flask application.
+- **env:** Virtual environment files for the Flask application.
+  The env directory is commonly used for virtual environment files. 
+  It might contain the virtual environment setup for the Flask application.
 
-migrations: If the project uses Flask-Migrate for database migrations, 
-this directory could store migration scripts.
+- **migrations:** Directory for migration scripts.
+  If Flask-Migrate is used,
+  this directory stores migration scripts.
 
-models: This directory may contain Python files defining database models using Flask-SQLAlchemy.
+- **models:** Python files defining database models using Flask-SQLAlchemy.
+
+
 
 Database: The database file, bank.db, is stored in the root directory. 
 It's an SQLite database used by the Flask application.
+
+
+
 
 Styling
 
