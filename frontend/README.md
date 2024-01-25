@@ -169,66 +169,70 @@ A Flask application for managing customers, accounts, and transactions in a bank
    cd backend
 
    python -m venv env
+
    .\env\Scripts\activate
+
    pip install -r requirements.txt
 
+   Run Flask Shell:
+
+   flask shell
+
+   Deactivate Virtual Environment:
+
+   deactivate
+
+   Additional Configuration
+
+   Update Database Schema:
+
+   flask db upgrade
    
+## Features
 
-### Prerequisites
+   Customer Management:
 
-List any software, tools, or dependencies that need to be installed before setting up the project.
+   Get the list of customers
+   Create a new customer
+   Update customer details
+   Delete a customer
+   Account Management:
 
-### Installation
+   Get the list of accounts
+   Create a new account
+   Update account details
+   Delete an account
+   Transaction Management:
 
-Step-by-step guide on how to install and configure your project. Include code snippets if necessary.
+   Get the list of transactions
+   Create a new transaction
+   Update transaction details
+   Delete a transaction
 
-## Usage
-
-Provide examples or usage scenarios to help users understand how to use your project.
-
-## Contributing
-
-Explain how others can contribute to your project. Include guidelines for submitting issues, feature requests, or pull requests.
-
-## License
-
-Specify the license under which your project is distributed.
-
-## Acknowledgements
-
-Give credit to any third-party libraries, tools, or resources that you used or were inspired by in your project.
-
-Project Specification Document
-
-Project Overview
-
-Project Name: Bank Management System
-
-Project Description:
-[Provide a brief description of the project, including its purpose and goals.]
-
-Technologies Used
+## Technologies Used
 
 Frontend Technologies
 
-React
-ReactDOM
-Tailwind CSS
+   React
+   ReactDOM
+   Tailwind CSS
 
 Backend Technologies
 
 - Flask: A micro web framework for Python
+
 - Flask-SQLAlchemy: Flask extension for SQLAlchemy, a SQL toolkit for Python
+
 - Flask-CORS: Flask extension for handling Cross-Origin Resource Sharing (CORS)
 
-
-
 Build Tools
+
 Vite (for fast frontend development)
+
 Project Structure
+
 Frontend Structure
-lua
-Copy code
+
 /src
 |-- components
 |   |-- App.jsx
@@ -236,19 +240,14 @@ Copy code
 |   |-- index.css
 |-- index.jsx
 |-- ...
+
 Configuration Files
+
 .babelrc (if applicable)
 vite.config.js (for Vite configuration)
-Frontend Setup
-Development Setup
-Clone the repository.
-Install dependencies: npm install.
-Run the development server: npm run dev.
-Open the application in your browser: http://localhost:3000.
-Build for Production
-Run the build command: npm run build.
-Deploy the generated dist folder.
+
 Styling
+
 Tailwind CSS
 Version: 3.4.1
 Customization: [Add any additional Tailwind CSS customizations here.]
