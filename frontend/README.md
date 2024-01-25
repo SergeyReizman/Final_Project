@@ -307,31 +307,38 @@ The application uses SQLite as the database,
 and the SQLite database file which is stored in the root directory is named `bank.db`. 
 The database schema includes tables for Customers, Accounts, and Transactions.
 
+## Styling
 
-Styling
+### Tailwind CSS
 
-Tailwind CSS
-Version: 3.4.1
-Customization: [Add any additional Tailwind CSS customizations here.]
-Global Styles
-Box sizing reset.
-Typography adjustments.
-Form styling.
-Utility Classes
-Spacing (m-, p-, mx-, my-, mt-, mb-, ml-, mr-).
-Flex container properties (flex, flex-row, flex-col, flex-wrap).
-Positioning (absolute, relative, -left-1/2, -right-[50%], bottom-0, right-0, top-0).
-Z-index and shadows.
-Responsive Design
-Media queries for different screen widths (xs, ss, sm, md, lg, xl).
-Custom Classes
-Background Colors
-.bg-dimBlue: rgba(9, 151, 124, 0.1)
-.bg-primary: rgb(0, 4, 15)
-Text Colors
-.text-dimWhite: rgba(255, 255, 255, 0.7)
-.text-primary: rgb(0, 4, 15)
+- Version: 3.4.1
 
-This document serves as a comprehensive guide to understand the structure, setup, and styling of the project. 
+#### Global Styles
+
+- Box sizing reset.
+- Typography adjustments.
+- Form styling.
+
+#### Utility Classes
+
+- Spacing (m-, p-, mx-, my-, mt-, mb-, ml-, mr-).
+- Flex container properties (flex, flex-row, flex-col, flex-wrap).
+- Positioning (absolute, relative, -left-1/2, -right-[50%], bottom-0, right-0, top-0).
+- Z-index and shadows.
+
+#### Responsive Design
+
+- Media queries for different screen widths (xs, ss, sm, md, lg, xl).
+
+##### Background Colors
+
+- .bg-dimBlue: rgba(9, 151, 124, 0.1)
+- .bg-primary: rgb(0, 4, 15)
+
+##### Text Colors
+
+- .text-dimWhite: rgba(255, 255, 255, 0.7)
+- .text-primary: rgb(0, 4, 15)
+
+This document serves as a comprehensive guide to understanding the structure, setup, and styling of the project. 
 Ensure that you update placeholders with project-specific information and customize the content based on your project requirements.
-
