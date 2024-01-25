@@ -301,12 +301,11 @@ Backend Structure
 
 - **models:** Python files defining database models using Flask-SQLAlchemy.
 
+# Database
 
-
-Database: The database file, bank.db, is stored in the root directory. 
-It's an SQLite database used by the Flask application.
-
-
+The application uses SQLite as the database, 
+and the SQLite database file which is stored in the root directory is named `bank.db`. 
+The database schema includes tables for Customers, Accounts, and Transactions.
 
 
 Styling
