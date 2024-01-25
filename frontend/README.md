@@ -1,8 +1,20 @@
 # fake server
 json-server -H 0.0.0.0 -p 3000 -w db.json
 
-# HooBank - Modern UI/UX website using React.js & Tailwind CSS
-Modern web development by building a responsive React JS application consisting of a stunning hero section, high-quality assets and gradients, business stats, reusable feature sections with call-to-action buttons, testimonials, and more by Sergey Reizman
+HooBank - Modern UI/UX Website
+
+Overview
+
+HooBank is a modern web development project using Modern UI/UX, React.js & Tailwind CSS that aims to build a responsive React JS application with a stunning UI, high-quality assets, gradients, business stats, reusable feature sections, call-to-action buttons, testimonials, and more. Developed by Sergey Reizman.
+
+# Tech Stack
+
+React
+ReactDOM
+Tailwind CSS
+Flask (Backend)
+Flask-SQLAlchemy
+Flask-CORS
 
 # React + Vite
 
