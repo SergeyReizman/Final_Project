@@ -96,22 +96,62 @@ A Flask application for managing customers, accounts, and transactions in a bank
 
 Customer Management:
 
-   Get the list of customers
-   Create a new customer
-   Update customer details
-   Delete a customer
-   Account Management:
+Get the List of Customers
 
-   Get the list of accounts
-   Create a new account
-   Update account details
-   Delete an account
-   Transaction Management:
+Endpoint: GET /api/customers
+Description: Retrieve a list of all customers.
+Create a New Customer
 
-   Get the list of transactions
-   Create a new transaction
-   Update transaction details
-   Delete a transaction
+Endpoint: POST /api/customers
+Description: Add a new customer to the system.
+Request Body: JSON with the customer's name.
+Update a Customer
+
+Endpoint: PUT /api/customers/{customer_id}
+Description: Modify the details of an existing customer.
+Request Body: JSON with the updated customer information.
+Delete a Customer
+
+Endpoint: DELETE /api/customers/{customer_id}
+Description: Remove a customer from the system.
+Account Management
+Get the List of Accounts
+
+Endpoint: GET /api/accounts
+Description: Retrieve a list of all accounts.
+Create a New Account
+
+Endpoint: POST /api/accounts
+Description: Open a new account for a customer.
+Request Body: JSON with the customer ID and initial balance.
+Update an Account
+
+Endpoint: PUT /api/accounts/{account_id}
+Description: Modify the details of an existing account.
+Request Body: JSON with the updated account information.
+Delete an Account
+
+Endpoint: DELETE /api/accounts/{account_id}
+Description: Close an account and remove it from the system.
+Transaction Management
+Get the List of Transactions
+
+Endpoint: GET /api/transactions
+Description: Retrieve a list of all transactions.
+Create a New Transaction
+
+Endpoint: POST /api/transactions
+Description: Record a new transaction for an account.
+Request Body: JSON with the account ID, transaction amount, and action type.
+Update a Transaction
+
+Endpoint: PUT /api/transactions/{transaction_id}
+Description: Modify the details of an existing transaction.
+Request Body: JSON with the updated transaction information.
+Delete a Transaction
+
+Endpoint: DELETE /api/transactions/{transaction_id}
+Description: Remove a transaction record from the system.
 
 ## Technologies Used
 
