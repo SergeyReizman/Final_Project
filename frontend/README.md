@@ -1,4 +1,4 @@
-# fake server
+# Fake server
 json-server -H 0.0.0.0 -p 3000 -w db.json
 
 HooBank - Modern UI/UX Website
