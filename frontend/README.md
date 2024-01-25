@@ -186,6 +186,7 @@ The database schema includes tables for Customers, Accounts, and Transactions.
    Install dependencies:
 
    cd frontend
+
    npm install
 
    Run the development server:
